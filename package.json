@@ -1,0 +1,25 @@
+{
+  "name": "selenium-test-1",
+  "version": "1.0.0",
+  "description": "base for selenium testing",
+  "main": "index.js",
+  "author": "Shannon Harris",
+  "license": "MIT",
+  "scripts": {
+    "test": "ts-node node_modules/.bin/protractor config/protractor.conf.ts"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.5.10",
+    "@types/node": "^14.0.22",
+    "chromedriver": "^83.0.1",
+    "dotenv": "^8.2.0",
+    "jasmine-console-reporter": "^3.1.0",
+    "jasmine-core": "^3.5.0",
+    "protractor": "^5.4.4",
+    "selenium-webdriver": "^3.6.0"
+  },
+  "dependencies": {
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  }
+}

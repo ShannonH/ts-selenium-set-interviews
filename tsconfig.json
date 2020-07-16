@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom","es6","dom.iterable","scripthost"],
+    "module": "CommonJS",
+    "noImplicitAny": true
+  },
+  "outDir": "build",
+  "typeRoots" : ["./node_modules/@types", "./typings"],
+  "exclude": [
+    "node_modules"
+  ]
+}
