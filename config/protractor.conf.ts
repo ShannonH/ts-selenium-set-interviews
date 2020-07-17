@@ -3,13 +3,14 @@ require('dotenv').config();
 
 export const config: Config = {
   baseUrl: process.env.baseUrl,
-  chromeDriver: require('chromedriver').path,
-  directConnect: true,
+  // chromeDriver: require('chromedriver').path,
+  // directConnect: true,
+  seleniumAddress: process.env.seleniumServerUrl,
   specs: ['../tests/**.ts'],
   capabilities: {
     browserName: 'chrome',
     name: 'Unnamed Job',
-    logName: 'Chrome_81',
+    logName: 'Chrome_83',
     count: 1,
     shardTestFiles: false,
     maxInstances: 1
