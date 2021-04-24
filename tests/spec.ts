@@ -1,8 +1,8 @@
 import { browser } from 'protractor';
 import { LoginPage } from '../page_objects/login_page';
 
-const ultraAdminUsername: string = browser.params.adminUsername;
-const ultraAdminPassword: string = browser.params.adminPassword;
+const ultraAdminUsername = browser.params.adminUsername;
+const ultraAdminPassword = browser.params.adminPassword;
 
 describe('The login page', () => {
   it('allows users to login', () => {

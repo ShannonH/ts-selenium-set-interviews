@@ -9,17 +9,17 @@
     "test": "ts-node node_modules/.bin/protractor config/protractor.conf.ts"
   },
   "devDependencies": {
-    "@types/jasmine": "^3.5.10",
-    "@types/node": "^14.0.22",
-    "chromedriver": "^83.0.1",
+    "@types/jasmine": "^3.6.9",
+    "@types/node": "^14.14.41",
+    "chromedriver": "^90.0.0",
     "dotenv": "^8.2.0",
     "jasmine-console-reporter": "^3.1.0",
-    "jasmine-core": "^3.5.0",
-    "protractor": "^5.4.4",
+    "jasmine-core": "^3.7.1",
+    "protractor": "^7.0.0",
     "selenium-webdriver": "^3.6.0"
   },
   "dependencies": {
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.6"
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
   }
 }
